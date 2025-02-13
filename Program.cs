@@ -13,11 +13,59 @@
             //Task: Write a program to compute Kaprekar's constant using any four digit start number
             //Ext: Display the number of iterations needed until 6174 is reached
 
-            Console.WriteLine("Hello, Type a four digit number:"); //starter code for students 
-            int x = Convert.ToInt32(Console.ReadLine()); //starter for students
-            //YOUR CODE GOES HERE...TEST
+            //Console.WriteLine("Hello, Type a four digit number:"); //starter code for students 
+            //int x = Convert.ToInt32(Console.ReadLine()); //starter for students
+            ////YOUR CODE GOES HERE...TEST
+
+
+            Console.WriteLine("Hello, Type a four digit number one by one:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+            int d = Convert.ToInt32(Console.ReadLine());
+
+            //bubbleSort(a, b, c, d);
+            int temp;
+            int i = 0;
+            int[] arr = { a, b, c, d };
+            bool swapsMade = false;
+            bool sorted = false;
+            while (sorted != true)
+            {
+                if (arr [i] > arr[i++])
+                {
+                    temp = arr [i];
+                    arr [i] = arr [i++];
+                    arr [i++] = temp;
+                    i++;
+                    swapsMade = true;
+                }
+                else
+                {
+                     i++; 
+                }
+                if (i >= 3 & swapsMade = false)
+                {
+
+                }
+
+            }
+
+
 
 
         }
+
+        //static void bubbleSort(int w, int x, int y, int z);
+        //{
+        // string temp;
+        //bool sorted = false;
+        //while (sorted != true) 
+        //    {
+
+        //    }
+
+
+    }
     }
 }
