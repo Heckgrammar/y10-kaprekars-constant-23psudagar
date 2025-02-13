@@ -15,7 +15,7 @@
 
             Console.WriteLine("Hello, Type a four digit number:"); //starter code for students 
             int x = Convert.ToInt32(Console.ReadLine()); //starter for students
-            //YOUR CODE GOES HERE...
+            //YOUR CODE GOES HERE...TEST
 
 
         }
