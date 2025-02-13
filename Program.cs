@@ -44,7 +44,7 @@
                 {
                      i++; 
                 }
-                if (i >= 3 & swapsMade = false)
+                if (i >= 3 & swapsMade = false)  
                 {
 
                 }
