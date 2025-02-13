@@ -13,7 +13,7 @@
             //Task: Write a program to compute Kaprekar's constant using any four digit start number
             //Ext: Display the number of iterations needed until 6174 is reached
 
-            Console.WriteLine("Hello, Type a four digit number:"); //starter code for students
+            Console.WriteLine("Hello, Type a four digit number:"); //starter code for students 
             int x = Convert.ToInt32(Console.ReadLine()); //starter for students
             //YOUR CODE GOES HERE...
 
